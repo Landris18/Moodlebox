@@ -41,6 +41,10 @@ body, html {
 	font-family: Poppins-Regular, sans-serif;
 }
 
+.eteindre{
+  font-family: Poppins-Regular;
+}
+
 /*---------------------------------------------*/
 a {
 	font-family: Poppins-Regular;

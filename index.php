@@ -126,7 +126,7 @@ if (isset($_POST['passw'])){
 
 					<div class="container-login100-form-btn" style="margin-top: 2%; margin-bottom: -10%; margin-left: 26%;">
 						<button class="login100-form-btn">
-							<i class="fa fa-power-off"> Eteindre</i> 
+							<i class="fa fa-power-off"> <span class="eteindre" >Eteindre </span> </i> 
 						</button>
 					</div>
 				</form>
