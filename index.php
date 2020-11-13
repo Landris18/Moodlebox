@@ -21,7 +21,7 @@ if (isset($_POST['passw'])){
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="images/LOGO-OSP-MENETP.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -85,9 +85,9 @@ if (isset($_POST['passw'])){
 				<!--Footer-->
 				<div class="modal-footer" style="justify-content: center;">
 					<form method="POST">
-						<button class="btn  btn-outline-danger" style="color: #ff3547; border-color: #ff3547" name="ekena">OUI</button>
+						<button class="btn  btn-outline-danger" style="color: #ff3547; border-color: #ff3547" name="ekena">Oui</button>
 					</form>
-					<a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal" style="background-color: #ff3547; color: #ffffff; border-color: #ff3547; cursor: pointer;">NON</a>
+					<a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal" style="background-color: #ff3547; color: #ffffff; border-color: #ff3547; cursor: pointer;">Non</a>
 				</div>
 			</div>
 			<!--/.Content-->
@@ -99,7 +99,7 @@ if (isset($_POST['passw'])){
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
+				<div class="login100-form-title" style="background-image: url(images/penci.jpg);">
 					<span class="login100-form-title-1">
 						Eteindre le serveur
 					</span>
@@ -108,13 +108,13 @@ if (isset($_POST['passw'])){
 				<form class="login100-form validate-form" style="margin-left: -5%;" method="POST">
 					<div class="wrap-input100 validate-input m-b-26" >
 						<span class="label-input100"><i class="fa fa-user"></i></span>
-						<input class="input100" type="text" name="username" placeholder="" value = "Admin" disabled>
+						<input class="input100" style="font-weight:bold;" type="text" name="username" placeholder="" value = "Admin" disabled>
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-18" data-validate = "Le mot de passe est réquis">
 						<span class="label-input100"><i class="fa fa-lock"></i></span>
-						<input class="input100" type="password" name="passw" placeholder="Entrer le mot de passe">
+						<input class="input100" style="font-weight:bold;" type="password" name="passw" placeholder="Entrer le mot de passe">
 						<span class="focus-input100"></span>
 					</div>
 
@@ -141,7 +141,7 @@ if (isset($_POST['passw'])){
 <?php 
 
 if (isset($_POST['ekena'])){
-	echo "hahahaha";
+	shell_exec("python3 script.py");
 }
 
 ?>

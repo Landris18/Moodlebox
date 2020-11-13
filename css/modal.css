@@ -6,9 +6,12 @@
      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+wrap-login100{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 .btn-outline-danger{
-     border: 2px solid #ff3547 !important;
+     border: 1.5px solid #ff3547 !important;
 }
 
 .btn-outline-danger:hover{
