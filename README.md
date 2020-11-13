@@ -5,7 +5,7 @@ Extinction d'un serveur Moodlebox Linux
 ## Comment faire ?
 
 sudo chsh -s /bin/bash wwww-data
-sudo nano /etc/passwd
+sudo nano /etc/passwd (Juste pour vérification)
 sudo passwd www-data
 sudo adduser wwww-data sudo
 
@@ -15,6 +15,8 @@ sudo adduser wwww-data sudo
 sudo visudo
 
 Ajouter ces lignes:
+
 wwww-data   ALL=NOPASSWD:ALL
+
 %sudo   ALL=NOPASSWD: /bin/systemctl poweroff -i
 
