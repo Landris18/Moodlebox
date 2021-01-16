@@ -1,3 +1,3 @@
-#Tested on ubuntu 18.04 LTS
+#Tested on Moodlebox Linux based on debian
 import os
 os.system("sudo /bin/systemctl poweroff -i")
