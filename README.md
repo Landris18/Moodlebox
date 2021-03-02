@@ -22,4 +22,4 @@ Ajouter ces lignes:
 www-data   ALL=NOPASSWD:ALL
 
 %sudo   ALL=NOPASSWD: /bin/systemctl poweroff -i
-
+www-data ALL=NOPASSWD: /bin/systemctl poweroff -i
