@@ -1,5 +1,5 @@
 # Moodlebox RASP
-Extinction d'un serveur Moodlebox Linux
+Extinction d'un serveur Moodlebox Linux via le web
 
 
 ## Comment faire ?
@@ -24,3 +24,8 @@ www-data   ALL=NOPASSWD:ALL
 %sudo   ALL=NOPASSWD: /bin/systemctl poweroff -i
 
 www-data ALL=NOPASSWD: /bin/systemctl poweroff -i
+
+
+### Lancement 
+
+Accéder à votre localhost et le tour est joué 💪👊
