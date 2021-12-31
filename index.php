@@ -64,7 +64,7 @@ if (isset($_POST['passw'])){
 <body>
 
 
-		<!--Modal: modalConfirmDelete-->
+        <!--Modal: modalConfirmDelete-->
 	<div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
 			<!--Content-->
@@ -93,9 +93,9 @@ if (isset($_POST['passw'])){
 			<!--/.Content-->
 		</div>
 	</div>
+
+
 	<!--Modal: modalConfirmDelete-->
-	
-	
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
