@@ -123,7 +123,7 @@ if (isset($_POST['passw'])){
 <?php 
 
 if (isset($_POST['ekena'])){
-	shell_exec("python3 script.py");
+	shell_exec("python3 shutdown.py");
 }
 
 ?>
