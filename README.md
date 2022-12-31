@@ -1,5 +1,5 @@
 # Moodlebox RASP
-Extinction d'un serveur Moodlebox Linux via le web
+Extinction d'un serveur Moodlebox Linux via une interface web locale
 
 
 ## Comment faire ?
